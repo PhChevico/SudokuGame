@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Board {
 
     private final int grid_size=9;
-    String textBoard =
+    private final String textBoard =
             ("3 8 5 0 0 0 0 0 0 " +
                     "   9 2 1 0 0 0 0 0 0 " +
                     "   6 4 7 0 0 0 0 0 0 " +
@@ -16,7 +16,7 @@ public class Board {
                     "   0 0 0 0 0 0 9 6 2 " +
                     "   0 0 0 0 0 0 1 4 5 ").replace(" ", "");
 
-    int[][] board = new int[grid_size][grid_size];
+    protected int[][] board = new int[grid_size][grid_size];
     public void dataBaseBoard() {
         int count = 0;
         //checking if the inserted board has the same size of the amount of squares we have in the sudoku board
@@ -31,5 +31,24 @@ public class Board {
                 }
             }
         }
+    }
+
+    public boolean printBoard(int [][] board){
+        int count =0;
+        for (int row = 0; row < grid_size; row++) {
+            System.out.println();
+            if(row % 3 == 0 && row != 0){
+                System.out.println("----------------------------------------------");
+            }
+            for (int column = 0; column < grid_size; column++) {
+                System.out.print(board [row][column] + "\t");
+                count++;
+                if (count == 3){
+                    System.out.print("|\t");
+                    count = 0;
+                }
+            }
+        }
+        return true;
     }
 }
