@@ -1,7 +1,5 @@
 package be.kdg.integration1.team40;
 
-import java.util.Arrays;
-
 public class Board {
 
     private final int grid_size=9;
@@ -33,7 +31,7 @@ public class Board {
         }
     }
 
-    public boolean printBoard(int [][] board){
+    public void printBoard(int [][] board){
         int count =0;
         for (int row = 0; row < grid_size; row++) {
             System.out.println();
@@ -49,6 +47,5 @@ public class Board {
                 }
             }
         }
-        return true;
     }
 }

@@ -6,6 +6,8 @@ public class Application {
         Board board = new Board();
 
         board.dataBaseBoard();
+        //board.printBoard(board.board);
+        solving.solveBoard(board.board);
         board.printBoard(board.board);
     }
 }

@@ -71,14 +71,4 @@ public class Test {
         return true;
     }
 
-//printing board
-    public void printBoard(){
-        for(int i= 0; i < grid.length ; i ++) {
-            if(i % 3 == 1) System.out.println();
-            for (int j = 0; j < grid[i].length; j++) {
-                if (j % 3 == 1) {System.out.println();}
-                System.out.print(grid[i][j]);
-            }
-        }
-    }
 }
