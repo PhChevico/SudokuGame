@@ -1,4 +1,3 @@
-package be.kdg.integration1.team40;
 public class Screen {
         public void generateWelcomeSudokuAscii() {
 

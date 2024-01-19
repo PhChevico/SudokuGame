@@ -1,6 +1,3 @@
-package be.kdg.integration1.team40;
-
-
 public class BoardSolver {
     final int GRID_SIZE = 9;
 

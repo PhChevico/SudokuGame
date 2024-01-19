@@ -1,5 +1,3 @@
-package be.kdg.integration1.team40;
-
 public class GameSession extends SharedEnvironmentConsumer {
 
     public void start() {

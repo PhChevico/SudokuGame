@@ -1,6 +1,3 @@
-package be.kdg.integration1.team40;
-
-
 import java.util.Scanner;
 
 

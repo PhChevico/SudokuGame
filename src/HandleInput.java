@@ -1,5 +1,3 @@
-package be.kdg.integration1.team40;
-
 public class HandleInput extends SharedEnvironmentConsumer {
     BoardSolver boardSolver = new BoardSolver();
     private String input;

@@ -1,7 +1,4 @@
-package be.kdg.integration1.team40;
-
 import java.sql.*;
-import java.util.Scanner;
 
 public class Database extends SharedEnvironmentConsumer {
     private Connection connection;

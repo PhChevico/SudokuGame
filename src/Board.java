@@ -1,5 +1,3 @@
-package be.kdg.integration1.team40;
-
 public class Board extends SharedEnvironmentConsumer {
 
     //size of the board
