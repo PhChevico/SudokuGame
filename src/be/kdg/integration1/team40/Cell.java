@@ -1,10 +1,37 @@
 package be.kdg.integration1.team40;
 
-public class Cell {
-    private int value; //number in the cell
-    private int row;
-    private int column;
+import java.util.Scanner;
 
+public class Cell extends SharedEnvironmentConsumer {
+    private String value; //number in the cell
+    private String row;
+    private String column;
+
+
+    public void setValue(String value) {
+       this.value = value;
+    }
+
+    public void setRow(String row) {
+        this.row = row;
+    }
+
+    public void setColumn(String column) {
+       this.column = column;
+
+    }
+
+    public int getValue() {
+        return Integer.parseInt(value);
+    }
+
+    public int getRow() {
+        return Integer.parseInt(row);
+    }
+
+    public int getColumn() {
+        return Integer.parseInt(column);
+    }
 
     @Override
     public String toString() {
