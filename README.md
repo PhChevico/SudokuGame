@@ -7,7 +7,6 @@ This is a terminal-based Sudoku game built in Java, designed for first-semester 
 - Play Sudoku on the terminal
 - Save and load game progress using a PostgreSQL database
 - Validate Sudoku rules (rows, columns, 3x3 subgrids)
-- Simple user interface for input and navigation
 
 ## Requirements
 
